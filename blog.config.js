@@ -5,7 +5,7 @@ const BLOG = {
   LINK: 'https://jessica.com', // 网站地址
   KEYWORDS: '思考', // 网站关键词 英文逗号隔开
   NOTION_PAGE_ID:
-  process.env.NOTION_PAGE_ID || 'e55ab60861324833b59a9e3d6f227a2c?v=12bb20f5e13e45b09e147a31f974e97f', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
+  process.env.NOTION_PAGE_ID || 'e55ab60861324833b59a9e3d6f227a2c', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
 
